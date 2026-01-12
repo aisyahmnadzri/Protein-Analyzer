@@ -1,5 +1,7 @@
 # 🔬 Protein Data Retrieval, Interaction Network & 3D Structure
 
+Play around with the app [here](https://protein-analyzer-aisyahmnadzri.streamlit.app/)
+
 This Streamlit app lets you:
 - Retrieve protein characteristics from **UniProt**.
 - Visualize real **protein-protein interaction networks** from **STRING DB**.
@@ -50,8 +52,16 @@ You can deploy easily on Streamlit Cloud:
 
 ## 📋 Requirements
 Dependencies are listed in requirements.txt:
+```
 streamlit
 requests
 matplotlib
 networkx
 py3Dmol
+```
+## 🧪 Example Usage
+- Input: P69905 (Hemoglobin subunit alpha).
+Output:
+- Protein characteristics (function, weight, etc.).
+- STRING DB network of interactions.
+- 3D structure from PDB/AlphaFold.
