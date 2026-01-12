@@ -1,4 +1,6 @@
 streamlit
+requests
 matplotlib
 seaborn
 networkx
+py3Dmol
